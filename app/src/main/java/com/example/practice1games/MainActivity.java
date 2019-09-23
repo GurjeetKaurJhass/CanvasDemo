@@ -27,8 +27,13 @@ public class MainActivity extends AppCompatActivity {
         drawPaint.setColor(Color.RED);
         imageView.setImageBitmap(b);
 
+        drawPaint.setTextSize(40);
+        drawPaint.setColor(Color.GREEN);
+        canvas.drawText("Hello Java",10,400,drawPaint);
 
-
+        drawPaint.setTextSize(100);
+        drawPaint.setColor(Color.YELLOW);
+        canvas.drawText("Goodbye",10,450,drawPaint);
 
         }
 
